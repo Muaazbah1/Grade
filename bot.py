@@ -9,7 +9,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
-API_TOKEN = os.getenv(8222021065:AAG3jd0GJHQ2-ucz-vJrIBpS-PReSTEfA_4)  # من Render (Environment Variable)
+API_TOKEN = os.getenv("BOT_TOKEN")  # من Render (Environment Variable)
 
 if not API_TOKEN:
     raise ValueError("❌ BOT_TOKEN غير موجود. أضفه كمتغير بيئة في Render.")
